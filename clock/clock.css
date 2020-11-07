@@ -1,0 +1,52 @@
+*,
+::after,
+::before {
+  margin: 0.5;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: futura;
+  background: #a1c9ee;
+  color: var(--clr-grey-1);
+  line-height: 2.5;
+  font-size: 0.875rem;
+
+  align-self: center;
+}
+
+main {
+    
+    display: grid;
+    place-items: center;
+  }
+
+h1,
+h2,
+h3,
+h4,
+p {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 2.75rem;
+  font-family: var(--ff-primary);
+  font-size: 1.5rem;
+  text-align: center;
+ 
+} 
+
+
+  p {
+      align-items: center;
+      color: : black;
+      font-size : 2 rem;
+      width: 200px;
+      border: 2px solid white;
+  }
+  #mood {
+      font-size: 2rem;
+   box-sizing: border-box;
+     padding: 6px;
+     text-align: center;
+  }
